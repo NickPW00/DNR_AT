@@ -8,7 +8,7 @@ const Drawer = createDrawerNavigator()
 function Info() {
   return (
       <View>
-          <Text>Sou eu o Tiririca</Text>
+          <Text>Aplicação que renderiza os produtos.</Text>
       </View>
   );
 }
