@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "nome": "Produto A",
+        "descricao": "Este é o produto A, uma descrição detalhada dele.",
+        "vendedor": {
+            "nome": "João Silva",
+            "telefone": "+55 11 1234-5678",
+            "email": "joao.silva@example.com",
+            "avaliacao": 4.5
+        },
+        "especificacoes": {
+            "cor": "Preto",
+            "peso": "1.2 kg",
+            "dimensoes": "20 x 15 x 5 cm"
+        },
+        "comentarios": [
+            {
+                "usuario": "Maria",
+                "data_publicacao": "2023-09-26",
+                "comentario": "Ótimo produto, estou muito satisfeita!",
+                "nota": 5
+            },
+            {
+                "usuario": "Carlos",
+                "data_publicacao": "2023-09-25",
+                "comentario": "Bom produto, entrega rápida.",
+                "nota": 4
+            }
+        ],
+        "duvidas": [
+            {
+                "usuario": "Ana",
+                "data_publicacao": "2023-09-24",
+                "duvida": "Esse produto está disponível na cor vermelha?",
+                "resposta": "Não, apenas na cor preta."
+            },
+            {
+                "usuario": "Pedro",
+                "data_publicacao": "2023-09-23",
+                "duvida": "Qual é o prazo de entrega?",
+                "resposta": "O prazo de entrega é de 3 a 5 dias úteis."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Produto B",
+        "descricao": "O Produto B é outra opção disponível, com suas próprias características.",
+        "vendedor": {
+            "nome": "Ana Oliveira",
+            "telefone": "+55 11 9876-5432",
+            "email": "ana.oliveira@example.com",
+            "avaliacao": 4.2
+        },
+        "especificacoes": {
+            "cor": "Branco",
+            "peso": "1.5 kg",
+            "dimensoes": "25 x 18 x 6 cm"
+        },
+        "comentarios": [
+            {
+                "usuario": "Lucas",
+                "data_publicacao": "2023-09-25",
+                "comentario": "Produto de qualidade, recomendo!",
+                "nota": 5
+            },
+            {
+                "usuario": "Mariana",
+                "data_publicacao": "2023-09-24",
+                "comentario": "Boa opção, preço justo.",
+                "nota": 4
+            }
+        ],
+        "duvidas": [
+            {
+                "usuario": "Paula",
+                "data_publicacao": "2023-09-23",
+                "duvida": "Esse produto vem com garantia?",
+                "resposta": "Sim, oferecemos garantia de 1 ano para este produto."
+            },
+            {
+                "usuario": "Rafael",
+                "data_publicacao": "2023-09-22",
+                "duvida": "Qual é o material desse produto?",
+                "resposta": "O produto é feito de aço inoxidável de alta qualidade."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Produto C",
+        "descricao": "Produto C é uma escolha adicional para atender às suas necessidades.",
+        "vendedor": {
+            "nome": "Carla Santos",
+            "telefone": "+55 11 8765-4321",
+            "email": "carla.santos@example.com",
+            "avaliacao": 4.7
+        },
+        "especificacoes": {
+            "cor": "Azul",
+            "peso": "1.3 kg",
+            "dimensoes": "22 x 16 x 4.5 cm"
+        },
+        "comentarios": [
+            {
+                "usuario": "André",
+                "data_publicacao": "2023-09-24",
+                "comentario": "Excelente produto, estou muito satisfeito!",
+                "nota": 5
+            },
+            {
+                "usuario": "Isabela",
+                "data_publicacao": "2023-09-23",
+                "comentario": "Produto atendeu às minhas expectativas.",
+                "nota": 4
+            }
+        ],
+        "duvidas": [
+            {
+                "usuario": "Fernanda",
+                "data_publicacao": "2023-09-22",
+                "duvida": "Esse produto é resistente à água?",
+                "resposta": "Sim, este produto é resistente à água."
+            },
+            {
+                "usuario": "José",
+                "data_publicacao": "2023-09-21",
+                "duvida": "Qual é o peso deste produto?",
+                "resposta": "O peso é de aproximadamente 1,3 kg."
+            }
+        ]
+    }
+]
