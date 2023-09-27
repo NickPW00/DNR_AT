@@ -1,10 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
+import { NavigationContainer } from "@react-navigation/native";
 import { StyleSheet, Text, View } from 'react-native';
 import AbaProdutos from './pages/AbaProdutos';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+
+const Drawer = createDrawerNavigator()
+
+function Info() {
+  return (
+      <View>
+          <Text>Sou eu o Tiririca</Text>
+      </View>
+  );
+}
 
 export default function App() {
   return (
-      <AbaProdutos/>
+    <NavigationContainer>
+      <Drawer.Navigator>
+        <Drawer.Screen name="Produtos" component={AbaProdutos} />
+        <Drawer.Screen name="Informações Adicionais" component={Info} />
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 }
 
