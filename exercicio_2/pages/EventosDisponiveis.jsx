@@ -65,4 +65,3 @@ const styles = StyleSheet.create({
   },
 });
 
-// Additional styles for your Eventos component can be added as needed.

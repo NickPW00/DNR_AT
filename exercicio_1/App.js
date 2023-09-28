@@ -1,24 +1,38 @@
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import AbaProdutos from './pages/AbaProdutos';
 import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-const Drawer = createDrawerNavigator()
+const Drawer = createDrawerNavigator();
 
 function Info() {
   return (
-      <View>
-          <Text>Aplicação que renderiza os produtos.</Text>
-      </View>
+    <View style={styles.container}>
+      <Text style={styles.infoText}>
+        Esta aplicação renderiza produtos e fornece informações adicionais.
+      </Text>
+    </View>
   );
 }
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Drawer.Navigator>
-        <Drawer.Screen name="Produtos" component={AbaProdutos} />
-        <Drawer.Screen name="Informações Adicionais" component={Info} />
+      <Drawer.Navigator initialRouteName="Produtos">
+        <Drawer.Screen
+          name="Produtos"
+          component={AbaProdutos}
+          options={{
+            drawerLabel: 'Lista de Produtos',
+          }}
+        />
+        <Drawer.Screen
+          name="Informações Adicionais"
+          component={Info}
+          options={{
+            drawerLabel: 'Informações',
+          }}
+        />
       </Drawer.Navigator>
     </NavigationContainer>
   );
@@ -27,8 +41,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f0f0f0',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 16,
+  },
+  infoText: {
+    fontSize: 18,
+    color: '#333',
+    textAlign: 'center',
   },
 });

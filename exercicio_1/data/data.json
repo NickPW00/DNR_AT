@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "nome": "Produto A",
-        "descricao": "Este é o produto A, uma descrição detalhada dele.",
+        "nome": "Geladeira",
+        "descricao": "Esta é a Geladeira, uma descrição detalhada dela.",
         "vendedor": {
             "nome": "João Silva",
             "telefone": "+55 11 1234-5678",
@@ -10,10 +10,11 @@
             "avaliacao": 4.5
         },
         "especificacoes": {
-            "cor": "Preto",
-            "peso": "1.2 kg",
-            "dimensoes": "20 x 15 x 5 cm"
+            "cor": "Branca",
+            "peso": "70 kg",
+            "dimensoes": "180 x 70 x 80 cm"
         },
+        "imagem": "https://i.imgur.com/Q4Hxz4l.jpg",
         "comentarios": [
             {
                 "usuario": "Maria",
@@ -32,8 +33,8 @@
             {
                 "usuario": "Ana",
                 "data_publicacao": "2023-09-24",
-                "duvida": "Esse produto está disponível na cor vermelha?",
-                "resposta": "Não, apenas na cor preta."
+                "duvida": "Essa geladeira está disponível em outras cores?",
+                "resposta": "Não, apenas na cor branca."
             },
             {
                 "usuario": "Pedro",
@@ -45,8 +46,8 @@
     },
     {
         "id": 2,
-        "nome": "Produto B",
-        "descricao": "O Produto B é outra opção disponível, com suas próprias características.",
+        "nome": "Máquina de Lavar",
+        "descricao": "A Máquina de Lavar é outra opção disponível, com suas próprias características.",
         "vendedor": {
             "nome": "Ana Oliveira",
             "telefone": "+55 11 9876-5432",
@@ -54,10 +55,11 @@
             "avaliacao": 4.2
         },
         "especificacoes": {
-            "cor": "Branco",
-            "peso": "1.5 kg",
-            "dimensoes": "25 x 18 x 6 cm"
+            "cor": "Branca",
+            "peso": "50 kg",
+            "dimensoes": "90 x 60 x 60 cm"
         },
+        "imagem": "https://i.imgur.com/KTTlmgl.jpg",
         "comentarios": [
             {
                 "usuario": "Lucas",
@@ -76,21 +78,21 @@
             {
                 "usuario": "Paula",
                 "data_publicacao": "2023-09-23",
-                "duvida": "Esse produto vem com garantia?",
+                "duvida": "Essa máquina de lavar vem com garantia?",
                 "resposta": "Sim, oferecemos garantia de 1 ano para este produto."
             },
             {
                 "usuario": "Rafael",
                 "data_publicacao": "2023-09-22",
-                "duvida": "Qual é o material desse produto?",
-                "resposta": "O produto é feito de aço inoxidável de alta qualidade."
+                "duvida": "Qual é o material dessa máquina de lavar?",
+                "resposta": "A máquina de lavar é feita de aço inoxidável de alta qualidade."
             }
         ]
     },
     {
         "id": 3,
-        "nome": "Produto C",
-        "descricao": "Produto C é uma escolha adicional para atender às suas necessidades.",
+        "nome": "Computador",
+        "descricao": "O Computador é uma escolha adicional para atender às suas necessidades.",
         "vendedor": {
             "nome": "Carla Santos",
             "telefone": "+55 11 8765-4321",
@@ -98,10 +100,11 @@
             "avaliacao": 4.7
         },
         "especificacoes": {
-            "cor": "Azul",
-            "peso": "1.3 kg",
-            "dimensoes": "22 x 16 x 4.5 cm"
+            "cor": "Prata",
+            "peso": "2.5 kg",
+            "dimensoes": "40 x 30 x 10 cm"
         },
+        "imagem": "https://i.imgur.com/unvoVA1.jpg",
         "comentarios": [
             {
                 "usuario": "André",
@@ -120,14 +123,14 @@
             {
                 "usuario": "Fernanda",
                 "data_publicacao": "2023-09-22",
-                "duvida": "Esse produto é resistente à água?",
-                "resposta": "Sim, este produto é resistente à água."
+                "duvida": "Esse computador é resistente à água?",
+                "resposta": "Não, este computador não é resistente à água."
             },
             {
                 "usuario": "José",
                 "data_publicacao": "2023-09-21",
-                "duvida": "Qual é o peso deste produto?",
-                "resposta": "O peso é de aproximadamente 1,3 kg."
+                "duvida": "Qual é o peso deste computador?",
+                "resposta": "O peso é de aproximadamente 2.5 kg."
             }
         ]
     }
