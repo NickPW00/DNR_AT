@@ -1,6 +1,6 @@
-import { NavigationContainer } from "@react-navigation/native";
 import { StyleSheet, Text, View } from 'react-native';
 import AbaProdutos from './pages/AbaProdutos';
+import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 const Drawer = createDrawerNavigator()

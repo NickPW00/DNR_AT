@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native';
+import { View, Text, ActivityIndicator } from 'react-native';
 
 export default function Detalhes({ route }) {
     const dados = route.params;
@@ -7,9 +7,14 @@ export default function Detalhes({ route }) {
     return (
         <View>
             <Text>{nome}</Text>
-            {Object.entries(item).map(([key, value], index) =>
-                <Text key={index}>{key} {value}</Text>
-            )}
+            {
+                item ? 
+                Object.entries(item).map(([key, value], index) =>
+                    <Text key={index}>{key} {value}</Text>
+                )
+                :
+                <ActivityIndicator />
+            }
         </View>
     );
 }

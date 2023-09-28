@@ -1,4 +1,4 @@
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, ActivityIndicator } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
@@ -16,12 +16,19 @@ export default function Produto({ route }) {
 
     return (
         <View>
-            <Image
-                styles={styles.stretch}
-                source={{ uri: 'https://i.imgur.com/Rg8DNtT.jpeg' }}
-            />
-            <Text>{item.nome}</Text>
-            <Text>{item.descricao}</Text>
+            {
+                item ?
+                <>
+                    <Image
+                        styles={styles.stretch}
+                        source={{ uri: 'https://i.imgur.com/Rg8DNtT.jpeg' }}
+                    />
+                    <Text>{item.nome}</Text>
+                    <Text>{item.descricao}</Text>
+                </>
+                :
+                <ActivityIndicator />
+            }
         </View>
     );
 }
